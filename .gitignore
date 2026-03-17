@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+dataset/
+*.pth
+.DS_Store
+.idea/
+*.iml
+.DS_Storegit remote add origin https://github.com/YOUR_USERNAME/Shelestov_AI_lab1.git
