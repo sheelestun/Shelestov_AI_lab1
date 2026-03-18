@@ -1,6 +1,6 @@
 {
-  "test_accuracy": 0.8958598726114649,
-  "test_loss": 0.4136805605888367,
-  "val_accuracy": 0.9035031847133758,
+  "test_accuracy": 0.9210191082802548,
+  "test_loss": 0.3816362370550632,
+  "val_accuracy": 0.921656050955414,
   "num_classes": 42
 }

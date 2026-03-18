@@ -48,7 +48,7 @@ val_loader = DataLoader(val_dataset, batch_size=64, shuffle=False, num_workers=0
 
 model = create_model((3, 64, 64), len(label_dict)).to(DEVICE)
 criterion = nn.CrossEntropyLoss()
-optimizer = optim.Adam(model.parameters(), lr=0.001, weight_decay=0.001)
+optimizer = optim.AdamW(model.parameters(), lr=0.001, weight_decay=0.001)
 
 history = {'train_loss': [], 'val_loss': [], 'train_acc': [], 'val_acc': []}
 best_val_acc = 0.0

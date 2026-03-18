@@ -1,5 +1,5 @@
 {
-  "val_accuracy": 0.9035031847133758,
+  "val_accuracy": 0.921656050955414,
   "num_classes": 42,
   "label_map": {
     "0": "abraham_grampa_simpson",
