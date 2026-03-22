@@ -36,9 +36,9 @@ class SimpsonClassifier(nn.Module):
         self.classifier = nn.Sequential(
             nn.Flatten(),
             nn.Dropout(0.5),
-            nn.Linear(256, 128),
-            nn.ReLU(),
-            nn.Linear(128, num_classes)
+            nn.Linear(256, num_classes),
+            # nn.ReLU(),
+            # nn.Linear(128, num_classes)
         )
 
     def forward(self, x):
